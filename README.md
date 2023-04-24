@@ -16,7 +16,7 @@ tu suis les étapes ci-dessous pour configurer et exécuter le projet :
 Tu clone mon dépôt sur ta machine locale en utilisant la commande suivante :
 
 ```bash
-git clone https://github.com/votre_nom_dutilisateur/robot-web-controller.git
+git clone https://github.com/AmauryLeChaffotec/robot_web_controller.git
 ```
 ### 2. Créer un environnement virtuel
 tu accède au répertoire du projet et créez un environnement virtuel Python pour isoler les dépendances :
