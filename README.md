@@ -19,7 +19,7 @@ Tu clone mon dépôt sur ta machine locale en utilisant la commande suivante :
 git clone https://github.com/AmauryLeChaffotec/robot_web_controller.git
 ```
 ### 2. Créer un environnement virtuel
-tu accède au répertoire du projet et créez un environnement virtuel Python pour isoler les dépendances :
+tu accèdes au répertoire du projet et créez un environnement virtuel Python pour isoler les dépendances :
 
 ```bash
 
@@ -30,7 +30,7 @@ python3 -m venv env
 ```
 
 ### 3. Activer l'environnement virtuel
-tu active ton environnement virtuel en exécutant la commande pour ton système d'exploitation :
+tu actives ton environnement virtuel en exécutant la commande pour ton système d'exploitation :
 
 Sur Windows :
 ```bash 
@@ -43,7 +43,7 @@ sur linux
 source env/bin/activate
 
 ### 4. Installer les dépendances
-tu installe les bibliothèques requises en utilisant le fichier requirements.txt 
+tu installes les bibliothèques requises en utilisant le fichier requirements.txt 
 
 ```bash
 pip install -r requirements.txt
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ```
 
 ### 5. Lancer le serveur Flask
-tu execute le serveur Flask en utilisant la commande suivante :
+tu executes le serveur Flask en utilisant la commande suivante :
 
 ```bash
 
@@ -64,6 +64,6 @@ python serveur.py
 Le serveur doit maintenant être en cours d'exécution et accessible à l'adresse http://127.0.0.1:5000 dans ton navigateur web.
 
 Utilisation
-tu ouvre un navigateur web et tu accéde à l'adresse http://127.0.0.1:5000. tu arrivera sur l'interface de contrôle du robot avec des boutons pour avancer, reculer, tourner à gauche et tourner à droite. Cliquez sur les boutons pour envoyer les commandes au robot.
+tu ouvres un navigateur web et tu accéde à l'adresse http://127.0.0.1:5000. tu arrivera sur l'interface de contrôle du robot avec des boutons pour avancer, reculer, tourner à gauche et tourner à droite. Cliquez sur les boutons pour envoyer les commandes au robot.
 
 
