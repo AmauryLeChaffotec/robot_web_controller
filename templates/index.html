@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contrôle du robot</title>
+    <style>
+        /* Appliquer un style simple aux boutons */
+        body {
+            font-family: Arial, sans-serif;
+            
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .control-buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .control-buttons button {
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+            margin: 5px;
+        }
+
+        .arrow {
+            display: inline-block;
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Tu peux contrôler ton super robot depuis cette page web</h1></center>
+
+    <!-- Créer les boutons pour contrôler le robot -->
+    
+    <div class="container">
+        <h1>Contrôleur de Robot</h1>
+       
+        <div class="control-buttons">
+            <button onclick="envoyerCommande('gauche')">
+                <i class="arrow left"></i>
+            </button>
+            <div>
+                <button onclick="envoyerCommande('avancer')">
+                    <i class="arrow up"></i>
+                </button>
+                <br>
+                <button onclick="envoyerCommande('reculer')">
+                    <i class="arrow down"></i>
+                </button>
+            </div>
+            <button onclick="envoyerCommande('droite')">
+                <i class="arrow right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Afficher les messages de statut reçus du serveur -->
+    <p id="statut"></p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
