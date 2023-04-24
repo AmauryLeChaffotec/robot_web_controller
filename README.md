@@ -30,7 +30,7 @@ python3 -m venv env
 ```
 
 ### 3. Activer l'environnement virtuel
-tu active ton environnement virtuel en exécutant la commande appropriée pour votre système d'exploitation :
+tu active ton environnement virtuel en exécutant la commande pour ton système d'exploitation :
 
 Sur Windows :
 ```bash 
