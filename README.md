@@ -65,6 +65,6 @@ python serveur.py
 Le serveur doit maintenant être en cours d'exécution et accessible à l'adresse http://127.0.0.1:5000 dans ton navigateur web.
 
 ### Utilisation
-tu ouvres un navigateur web et tu accéde à l'adresse http://127.0.0.1:5000. tu arrivera sur l'interface de contrôle du robot avec des boutons pour avancer, reculer, tourner à gauche et tourner à droite. Cliquez sur les boutons pour envoyer les commandes au robot.
+tu ouvres un navigateur web et tu accéde à l'adresse http://127.0.0.1:5000. tu arrivera sur l'interface de contrôle du robot avec des boutons pour avancer, reculer, tourner à gauche et tourner à droite. Tu cliques sur les boutons pour envoyer les commandes au robot.
 
 
