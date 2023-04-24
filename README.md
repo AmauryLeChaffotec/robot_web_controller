@@ -38,9 +38,10 @@ env\Scripts\activate
 
 ```
 
-sur linux
+sur linux :
 ```bash 
 source env/bin/activate
+```
 
 ### 4. Installer les dépendances
 tu installes les bibliothèques requises en utilisant le fichier requirements.txt 
